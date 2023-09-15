@@ -1,0 +1,10 @@
+package com.example.sem5
+
+import com.google.gson.annotations.SerializedName
+
+class Joke(
+
+    @SerializedName("joke")
+    var joke: String
+
+)
